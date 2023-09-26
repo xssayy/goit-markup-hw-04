@@ -192,8 +192,14 @@ nav .nav-menu .page-link:active {
 /* main-block-styles start*/
 /* introduction-section */
 .introduction-section {
-  background-color: #2e2f42;
   padding: 188px 0;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/main-section-img/1st-section-bg.jpg);
+  background-size: cover;
 }
 
 .introduction-section .page-title {
@@ -219,6 +225,8 @@ nav .nav-menu .page-link:active {
   min-width: 169px;
   height: 56px;
   margin: 48px auto 0;
+
+  transition: background-colod 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .introduction-section .order-service-button:hover,
@@ -238,6 +246,23 @@ nav .nav-menu .page-link:active {
 
 .advantages.section .adv-list .adv-list-item {
   width: calc((100% - 72px) / 4);
+}
+
+.adv-item-icon-cont {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adv-item-icon-cont .adv-item-icon {
+  width: 64px;
+  height: 64px;
 }
 
 .advantages.section .adv-list .adv-list-item .item-title {
