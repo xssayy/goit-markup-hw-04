@@ -200,7 +200,7 @@ nav .nav-menu .page-link:active {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/main-section-img/1st-section-bg.jpg);
+    url(../images/main-section-img/1st-section-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
