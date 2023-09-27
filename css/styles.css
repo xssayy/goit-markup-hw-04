@@ -428,6 +428,15 @@ nav .nav-menu .page-link:active {
   padding: 100px 0;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer.section .logo-cont {
+  margin-right: 120px;
+}
+
 .footer.section .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -440,4 +449,39 @@ nav .nav-menu .page-link:active {
 .footer.section .item-text {
   max-width: 264px;
   color: #f4f4fd;
+}
+
+.footer.section .social-media-footer-cont {
+}
+
+.footer.section .social-media-footer-cont .item-text {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social-media-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-media-list .social-media-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-list-item .social-media-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-media-icon {
+  fill: #f4f4fd;
 }
