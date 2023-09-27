@@ -347,7 +347,8 @@ nav .nav-menu .page-link:active {
 }
 
 .social-networks-list .social-network-list-item .nw-item-link:hover,
-.social-networks-list .social-network-list-item .nw-item-link:active {
+.social-networks-list .social-network-list-item .nw-item-link:active,
+.social-networks-list .social-network-list-item .nw-item-link:focus {
   background-color: #404bbf;
 }
 
@@ -381,7 +382,7 @@ nav .nav-menu .page-link:active {
 }
 
 .project-hidden-text {
-  padding: 40px 32px 0 32px;
+  padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -457,6 +458,7 @@ nav .nav-menu .page-link:active {
 .footer.section .social-media-footer-cont .item-text {
   color: #ffffff;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer-social-media-list {
@@ -480,6 +482,13 @@ nav .nav-menu .page-link:active {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-list-item .social-media-link:hover,
+.social-media-list-item .social-media-link:active {
+  background-color: #31d0aa;
 }
 
 .footer-social-media-icon {
